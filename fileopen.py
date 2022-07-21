@@ -7,21 +7,18 @@
 def delete28fps():
     lines = ctFile.readlines()
 
-    for line in lines:
-        if "28.6fps" in line:
-            n = line.index(n)
 
-        elif "End Export" in line:
-            x = line.index(x)
+    # lets itirate through these "lines"
+    i = 0
+    while i < len(lines):
+        if "28.6fps" in lines[i]:
+            while lines[i] != "End Export":
+                lines.strip()
+                i += 1    
 
         else:
             print("nothing to strip")
             break
-
-
-    for i in range(n,x):
-        line.strip()
-        print("Stripped " + line)
 
     ctFile.close()
 
