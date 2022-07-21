@@ -1,0 +1,27 @@
+# Export all frames in time range to AVI at 30fps
+some settings
+more settings
+even more settings
+a file path of sorts
+End Export
+
+# Export all frames at 25%
+some settings
+more settings
+even more settings
+a file path of sorts
+End Export
+
+# Export frames with some other settings
+some settings
+more settings
+even more settings
+a file path of sorts
+End Export
+
+# Another block of export settings
+some settings
+more settings
+even more settings
+a file path of sorts
+End Export
