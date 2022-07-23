@@ -9,12 +9,10 @@ def delete28fps():
 
 
     # lets itirate through these "lines"
-    i = 0
-    while i < len(lines):
+    for i, lines in enumerate(lines):
         if "28.6fps" in lines[i]:
             while lines[i] != "End Export":
-                lines.strip()
-                i += 1    
+                list.remove(lines)   
 
         else:
             print("nothing to strip")
