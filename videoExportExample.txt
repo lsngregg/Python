@@ -31,4 +31,27 @@ some settings
 more settings
 even more settings
 a file path of sorts
+End Export# Export all frames at 28.6fps
+some settings
+more settings
+even more settings
+a file path of sorts
 End Export
+
+# Export frames with some other settings
+some settings
+more settings
+even more settings
+a file path of sorts
+End Export
+
+# Another block of export settings
+some settings
+more settings
+even more settings
+a file path of sorts
+# Export all frames at 28.6fps
+some settings
+more settings
+even more settings
+a file path of sorts
